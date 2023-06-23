@@ -90,7 +90,7 @@ const Header: FC<IHeaderProps> = ({
         'flex flex-1 items-center justify-between px-4',
       )}>
         <div className='flex items-center'>
-          <Link href="/apps" className='flex items-center mr-4'>
+          {/* <Link href="/apps" className='flex items-center mr-4'>
             <div className={s.logo} />
           </Link>
           {
@@ -106,7 +106,7 @@ const Header: FC<IHeaderProps> = ({
                 <div className='px-2 py-1 bg-white border-l border-gray-200'>{`${starCount}`.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</div>
               </Link>
             )
-          }
+          } */}
         </div>
         <div className='flex items-center'>
           <Link href="/explore/apps" className={classNames(

@@ -19,7 +19,7 @@ else if (
 }
 else {
   if (isDevelopment) {
-    apiPrefix = 'https://cloud.dify.dev/console/api'
+    apiPrefix = 'http://localhost/console/api'
     publicApiPrefix = 'https://dev.udify.app/api'
   }
   else {

@@ -11,7 +11,6 @@ import type { App } from '@/types/app'
 import Confirm from '@/app/components/base/confirm'
 import { ToastContext } from '@/app/components/base/toast'
 import { deleteApp } from '@/service/apps'
-import AppIcon from '@/app/components/base/app-icon'
 import AppsContext from '@/context/app-context'
 
 export type AppCardProps = {
@@ -51,7 +50,7 @@ const AppCard = ({
     <>
       <Link href={`/app/${app.id}/overview`} className={style.listItem}>
         <div className={style.listItemTitle}>
-          <AppIcon size='small' icon={app.icon} background={app.icon_background} />
+          {/* <AppIcon size='small' icon={app.icon} background={app.icon_background} /> */}
           <div className={style.listItemHeading}>
             <div className={style.listItemHeadingContent}>{app.name}</div>
           </div>
